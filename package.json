@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "server": "node app.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "moment": "^2.24.0",
+    "oauth": "^0.9.15",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
